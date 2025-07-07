@@ -6,7 +6,8 @@
  */
 
 plugins {
-    id 'org.sonatype.gradle.plugins.scan' version '1.2.0' // Update the version as needed
+    id 'java'
+    id 'org.cyclonedx.bom' version '1.7.4' // or the latest version
 }
 
 group 'cyclonedx-sbom-examples'
