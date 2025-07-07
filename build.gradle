@@ -6,8 +6,13 @@
  */
 
 plugins {
-    id 'java'
-    id 'org.cyclonedx.bom' version '1.7.4' // or the latest version
+    id 'org.cyclonedx.bom' version '1.7.4'
+}
+
+cyclonedxBom {
+    includeBomSerialNumber = true
+    projectType = "application"
+    schemaVersion = "1.4"
 }
 
 group 'cyclonedx-sbom-examples'
