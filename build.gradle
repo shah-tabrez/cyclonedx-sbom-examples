@@ -28,11 +28,3 @@ dependencies {
     implementation group: 'net.sf.ehcache', name: 'ehcache', version: '2.10.6'
 }
 
-nexusIQScan {
-    username = 'admin'
-    password = 'admin123'
-    serverUrl = 'http://localhost:8070'
-    applicationId = 'gradle-test'
-    stage = 'develop'
-}
-
